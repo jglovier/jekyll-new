@@ -134,34 +134,49 @@ a:visited { color: #205caa; }
 /* Post styles */
 /* ----------------------------------------------------------*/
 
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+.post-header { margin: 10px 0 30px; }
+
+.post-header h1 {
+  font-size: 36px;
+  letter-spacing: -1.75px;
+  line-height: 1;
+  font-weight: 300;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
+.post-header .meta {
+  font-size: 15px;
+  color: #818181;
+  margin-top: 15px;
 }
 
+.post-content { margin: 0 0 30px; }
+
+.post-content p { margin: 20px 0; }
+
+.post .highlight { margin: 20px 0; }
+
+.post pre,
 .post code {
-  border: 1px solid #ddd;
+  border: 1px solid #d5d5e9;
   background-color: #eef;
-  padding: 0 .2em;
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-size: 15px;
 }
 
-.post pre code {
-  border: none;
-}
+.post code { padding: 1px 5px; }
+
+.post ul,
+.post ol { margin-left: 1.35em; }
+
+.post pre code { border: none; }
 
 /* terminal */
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
+  border-radius: 3px;
 }
 
-.post pre.terminal code {
-  background-color: #333;
-}
+.post pre.terminal code { background-color: #333; }
