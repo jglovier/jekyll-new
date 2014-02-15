@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How this one wierd trick will change your life"
+title: "This post demonstrates post content styles"
 categories: junk
 author: "Bart Simpson"
 meta: "Springfield"
