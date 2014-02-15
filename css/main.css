@@ -137,7 +137,7 @@ a:visited { color: #205caa; }
 .post-header { margin: 10px 0 30px; }
 
 .post-header h1 {
-  font-size: 36px;
+  font-size: 42px;
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
@@ -151,9 +151,47 @@ a:visited { color: #205caa; }
 
 .post-content { margin: 0 0 30px; }
 
-.post-content p { margin: 20px 0; }
+.post-content > * { margin: 20px 0; }
 
-.post .highlight { margin: 20px 0; }
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  line-height: 1;
+  font-weight: 300;
+  margin: 40px 0 20px;
+}
+
+.post-content h2 {
+  font-size: 32px;
+  letter-spacing: -1.25px;
+}
+
+.post-content h3 {
+  font-size: 26px;
+  letter-spacing: -1px;
+}
+
+.post-content h4 {
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.post-content blockquote {
+  border-left: 4px solid #e8e8e8;
+  padding-left: 20px;
+  font-size: 18px;
+  opacity: .6;
+  letter-spacing: -1px;
+  font-style: italic;
+  margin: 30px 0;
+}
+
+.post-content ul,
+.post-content ol { padding-left: 20px; }
 
 .post pre,
 .post code {
