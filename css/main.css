@@ -57,6 +57,8 @@ a:visited { color: #205caa; }
   letter-spacing: -1px;
   float: left;
   line-height: 56px;
+  position: relative;
+  z-index: 1;
 }
 
 .site-nav {
