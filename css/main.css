@@ -322,7 +322,8 @@ a:visited { color: #205caa; }
   }
 
   .site-nav:hover .trigger,
-  .site-nav:active .trigger {
+  .site-nav:active .trigger,
+  .site-nav:focus .trigger, {
     display: block;
   }
 
