@@ -313,7 +313,7 @@ a:visited { color: #205caa; }
     line-height: 36px;
   }
 
-  .site-nav .menu-icon  svg { width: 18px; height: 16px; }
+  .site-nav .menu-icon svg { width: 18px; height: 16px; }
 
   .site-nav .trigger {
     clear: both;
@@ -333,5 +333,10 @@ a:visited { color: #205caa; }
     padding: 5px 10px;
     margin: 0;
   }
+
+  .post-header h1 { font-size: 36px; }
+  .post-content h2 { font-size: 28px; }
+  .post-content h3 { font-size: 22px; }
+  .post-content h4 { font-size: 18px; }
 
 }
