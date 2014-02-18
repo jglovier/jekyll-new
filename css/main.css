@@ -103,6 +103,15 @@ a:visited { color: #205caa; }
   color: #828282;
 }
 
+.github-icon-svg,
+.twitter-icon-svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+}
+
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
