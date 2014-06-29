@@ -23,6 +23,12 @@ a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
 
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+
 /* Utility */
 
 .wrap:before,
